@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  body {
+    @apply flex min-h-screen w-full flex-col bg-theme-50 text-theme-900 dark:bg-theme-900 dark:text-theme-100;
+  }
+
+  main {
+    @apply flex-1;
+  }
+}
