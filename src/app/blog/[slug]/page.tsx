@@ -65,7 +65,6 @@ export default async function Slug({ params }: SlugProps) {
       <div className="prose prose-zinc mx-auto max-w-5xl px-4 dark:prose-invert lg:prose-xl">
         <MDXRemote source={content} />
       </div>
-      <pre>{JSON.stringify(post, null, 2)}</pre>
     </div>
   );
 }
